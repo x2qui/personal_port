@@ -1,0 +1,15 @@
+
+:root {
+  --font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  --btn-color: #3D72D9;
+  --text-color: #DADADA;
+  --gradient-subheader: linear-gradient(90deg, #A8A8A8 0%, #AECAFF 100%);
+  --gradient-header: linear-gradient(90deg, #3D72D9 0%, #AECAFF 100%);
+  --bg-color: #A8A8A8;
+  --nav-bg: #040A0F;
+  --bd-color:#040A0F;
+  
+  
+  --fonts-display: TWK Everett, Inter, "Hevetica Neue", Helvetica, apple-system, sans-serif;
+  --fonts-default: Inter, "Hevetica Neue", Helvetica, apple-system, sans-serif;
+}

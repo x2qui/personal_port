@@ -1,0 +1,18 @@
+.x2q__myself-container {
+    background-color: var(--bd-color);
+    border-radius: 50px;
+}
+.x2q__myself-content{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+@media screen and (max-width:550px){
+    .x2q__myself-container{
+        border-radius: 20px;
+    }
+    .x2q__myself-content{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

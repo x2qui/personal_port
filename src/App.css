@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+    background: var(--bg-color);
+    cursor: none;
+}
+.gradient__text{
+    background: var(--gradient-header);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient__sub{
+    background: var(--gradient-subheader);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.blue{
+    color: var(--btn-color);
+    
+}
+a{
+    color:unset;
+    text-decoration: none;
+}
+.section__padding {
+    padding: 4rem 7rem;
+}
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.content__padding{
+    padding-bottom: 3rem;
+}
+.header__padding{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.headerimg{
+  
+    background-image: url('assets/headerimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+   
+    
+}
+.clockbg{
+  background-image: url('assets/Background.jpg');
+  background-size: cover;
+  height: 100vh;
+
+}
+
+
+.x2q__instareels-content {
+  background-image: url('../src/assets/ig.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.slide-in-top {
+	-webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-left {
+	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+    100% {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+    100% {
+      -webkit-transform: translateX(-0px);
+              transform: translateX(-0px);
+    }
+  }
+
+  .fade-in {
+    -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+            animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+  }
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-inp {
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+          animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+}
+
+@-webkit-keyframes fade-inp {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+@keyframes fade-inp {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+.fade-inb {
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+          animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+}
+
+@-webkit-keyframes fade-inb {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+@keyframes fade-inb {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+  h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 120px;
+    text-align: center;
+    line-height: 110px;
+  }
+
+  h2{
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  p {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 52px;
+    text-align: center;
+   
+    
+}
+
+.primarybtn{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 16px 50px 16px 50px;
+    background: var(--btn-color);
+    border-radius: 30px;
+   
+
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+}
+.secondarybtn {
+    cursor: pointer;
+    outline:none;
+    border:none;
+    background: none;
+    color: var(--btn-color);
+    font-size: 32px;
+    padding-top: 3rem;
+   
+}
+.Quibutton{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 16px 50px 16px 50px;
+  background:rgba(61, 114, 217, 0.16);
+  border-radius: 30px;
+
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+
+  
+}
+
+.Quibutton:hover{
+  background: var(--btn-color);
+}
+
+@media screen and (min-width:1300px){
+  .section__padding {
+    padding: 6rem 10rem;
+}
+}
+@media screen and (min-width:2000px){
+  .section__padding {
+    padding: 10rem 30rem;
+}
+}
+
+@media screen and (max-width:1050px) {
+
+    .section__padding {
+        padding: 4rem 4rem;
+    }
+    .header__padding{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .headerimg{
+      height: 100vh;
+    }
+    h1{
+        
+        font-size: 100px;
+        line-height: 90px;
+      }
+      h2{
+        font-size: 80px;
+        line-height: 75px;
+
+    }
+      
+    p{
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .secondarybtn{
+      font-size: 28px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .slide-left {
+        -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    
+     @-webkit-keyframes slide-left {
+        0% {
+          -webkit-transform: translateX(100px);
+                  transform: translateX(100px);
+        }
+        100% {
+          -webkit-transform: translateX(0px);
+                  transform: translateX(0px);
+        }
+      }
+      @keyframes slide-left {
+        0% {
+          -webkit-transform: translateX(100px);
+                  transform: translateX(100px);
+        }
+        100% {
+          -webkit-transform: translateX(-0px);
+                  transform: translateX(-0px);
+        }
+      }
+    .section__padding {
+        padding: 4rem;
+    }  
+
+    .section__margin {
+        margin: 4rem;
+    } 
+
+    h1{
+        font-size: 85px;
+        line-height: 80px;
+    }
+    h2{
+        font-size: 85px;
+        line-height: 80px;
+
+    }
+    p {
+
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .secondarybtn{
+      font-size: 24px;
+    }
+       
+    .headerimg{
+        background-image: url('assets/headerimgtb.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        
+    }
+
+}
+ 
+
+@media screen and (max-width:550px){
+    
+    .section__padding {
+        padding: 4rem 2rem;
+    }  
+
+    .section__margin {
+        margin: 4rem 2rem;
+    } 
+
+    .content__padding{
+        padding-bottom: 2rem;
+    }
+    .header__padding{
+        padding: 0rem;
+    }
+    .headerimg{
+        background: url('assets/headerimgmb.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        
+        
+        
+    }
+    .welcomebg{
+        background-image: url('assets/welcomebgmb.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        
+    }
+
+    
+    h1{
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    h2{
+        
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    p {
+
+        font-weight: 300;
+        font-size: 18px;
+        line-height:25px;
+       
+        
+    }
+    .secondarybtn{
+      font-size: 18px;
+    }
+    .primarybtn{
+        padding: 16px 40px 16px 40px;
+        font-size: 14px;
+    }
+    .Quibutton{
+      padding: 16px 40px 16px 40px;
+      font-size: 14px;
+    }
+   
+}

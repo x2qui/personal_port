@@ -1,0 +1,113 @@
+.x2q__slider-container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    position: relative;
+   
+ 
+}
+
+.x2q__slider{
+    height: 100%;
+    width:100%;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out;
+    border-radius: 50px;
+   
+
+    
+    
+}
+
+.x2q__downloader-description{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 25rem 5rem 0rem 5rem;
+    
+
+} 
+.x2q__downloaderpage-header{
+    text-align: center;
+   
+
+}
+.x2q__divider{
+    margin-top: 2rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.x2q__downloaderpage-btn{
+    padding-top: 2rem;
+}
+.x2q__navigator{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: 47.5%;
+    bottom: 30px;
+    transform: translate(-0%, -50%);
+}
+.x2q__dot {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    margin:0.35rem;
+    border-radius: 15px;
+    background-color: var(--text-color);
+    opacity: 0.2;
+    
+} 
+
+
+@media screen and (max-width:1050px){
+
+   
+
+    .x2q__downloader-description{
+        padding: 15rem 5rem 0rem 5rem;
+    }
+
+}
+@media screen and (max-width:820px){
+   
+
+    .x2q__downloader-description{
+        padding: 20rem 5rem 0rem 5rem;
+    }
+    .x2q__navigator{
+
+        right: 45.5%;
+        bottom: 140px;
+        transform: translate(-0%, -50%);
+    }
+}
+@media screen and (max-width:550px){
+    .x2q__slider{
+        border-radius: 20px;
+    }
+   
+    .x2q__divider{
+        margin-top: 1rem;
+    }
+    .x2q__downloaderpage-btn{
+        padding-top: 1rem;
+    }
+    .x2q__downloader-description{
+        padding: 20rem 2rem 0rem 2rem;
+        
+    }
+    .x2q__navigator{
+        right: 42%;
+        bottom: 30px;
+        transform: translate(-0%, -50%);
+    }
+  
+    
+}

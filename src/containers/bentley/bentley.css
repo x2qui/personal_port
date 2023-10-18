@@ -1,0 +1,50 @@
+.x2q__bentley-container{
+    background-color: var(--bd-color);
+    margin-top: -0.2rem;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.x2q__bentley-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.x2q__bentley-paragraph button{
+    display: block;
+    margin: 0 auto;
+}
+.x2q__bentley-image{
+    margin: 0 -6.5rem;
+}
+
+.x2q__bentley-image img{
+    width:100%;
+    height:100%;
+    
+}
+@media screen and (min-width:1300px){
+    .x2q__bentley-paragraph p{
+        padding-left:20rem;
+        padding-right:20rem;
+    }
+
+}
+@media screen and (max-width:1050px){
+    .x2q__bentley-image{
+        margin: 0 -2.5rem;
+    }
+}
+@media screen and (max-width:800px){
+    .x2q__bentley-image{
+        margin: 0 -2.5rem;
+    }
+}
+@media screen and (max-width:550px){
+    .x2q__bentley-container{
+        border-radius: 0px 0px 20px 20px;
+    }
+    .x2q__bentley-image{
+        margin: 0 -0.5rem;
+    }
+
+}

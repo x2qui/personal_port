@@ -1,0 +1,45 @@
+.x2q__maroon-container{
+    background-color: var(--bd-color);
+}
+
+.x2q__maroon-flex-content{
+    display: flex;
+    align-items: center;
+}
+.x2q__maroon-image {
+    flex: 1.5;
+    margin-right: -5rem;
+}
+.x2q__maroon-image img{
+    width: 100%;
+    height: 100%;
+}
+.x2q__maroon-paragraph{
+    flex:1;
+    z-index: 1;
+}
+.x2q__maroon-paragraph p{
+    text-align: left;
+}
+
+@media screen and (max-width: 550px) {
+    .x2q__maroon-flex-content{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .x2q__maroon-image {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin: 0 -1.5rem;
+    }
+    .x2q__maroon-paragraph{
+        padding-left: 5rem;
+    }
+    .x2q__maroon-paragraph p{
+        text-align: right;
+    }
+    .x2q__maroon-paragraph button{
+        float: right;
+    }
+}

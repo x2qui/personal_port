@@ -1,0 +1,9 @@
+export {default as Header} from './header/Header';
+export {default as Welcome} from './welcome/Welcome';
+export {default as Ccmh} from './ccmh/Ccmh';
+export {default as Bentley} from './bentley/Bentley';
+export {default as Downloader} from './downloader/Downloader';
+export {default as Quidownloaderpage} from './quidownloaderpage/Quidownloaderpage';
+export {default as Myself} from './myself/Myself';
+export {default as Time} from './time/Time';
+export {default as Maroongt} from  './maroongt/Maroongt';
